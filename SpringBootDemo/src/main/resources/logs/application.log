@@ -1,0 +1,105 @@
+2018-03-18 22:56:21.422  INFO 6708 --- [main] com.demo.Main                            : Starting Main on Akash-PC with PID 6708 (started by Akash in E:\Spring Boot\SpringBootDemo\SpringBootDemo)
+2018-03-18 22:56:21.430  INFO 6708 --- [main] com.demo.Main                            : No active profile set, falling back to default profiles: default
+2018-03-18 22:56:21.566  INFO 6708 --- [main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@d0a57: startup date [Sun Mar 18 22:56:21 IST 2018]; root of context hierarchy
+2018-03-18 22:56:23.141  WARN 6708 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.demo.controller, com.demo]' package. Please check your configuration.
+2018-03-18 22:56:23.900  INFO 6708 --- [main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-03-18 22:56:24.210  INFO 6708 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c6151b92] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-03-18 22:56:25.118  INFO 6708 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8181 (http)
+2018-03-18 22:56:25.189  INFO 6708 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-03-18 22:56:25.190  INFO 6708 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.28
+2018-03-18 22:56:25.212  INFO 6708 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_144\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jdk1.8.0_144/bin/../jre/bin/client;C:/Program Files/Java/jdk1.8.0_144/bin/../jre/bin;C:/Program Files/Java/jdk1.8.0_144/bin/../jre/lib/i386;C:\oraclexe\app\oracle\product\11.2.0\server\bin;;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_144\bin;C:\Program Files\Apache\maven\bin;C:\Program Files\Skype\Phone\;E:\Java\Eclipse\eclipse;;.]
+2018-03-18 22:56:25.557  INFO 6708 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-03-18 22:56:25.943  INFO 6708 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-03-18 22:56:25.950  INFO 6708 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-03-18 22:56:25.951  INFO 6708 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-03-18 22:56:25.951  INFO 6708 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-03-18 22:56:25.951  INFO 6708 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-03-18 22:56:26.365  INFO 6708 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2018-03-18 22:56:27.195  INFO 6708 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2018-03-18 22:56:27.321  INFO 6708 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-03-18 22:56:27.382  INFO 6708 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-03-18 22:56:27.594  INFO 6708 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.2.14.Final}
+2018-03-18 22:56:27.597  INFO 6708 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2018-03-18 22:56:27.704  INFO 6708 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-03-18 22:56:28.107  INFO 6708 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2018-03-18 22:56:30.440  INFO 6708 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-03-18 22:56:32.309  WARN 6708 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-03-18 22:56:33.458  INFO 6708 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-03-18 22:56:33.463  INFO 6708 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-03-18 22:56:33.475  INFO 6708 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-03-18 22:56:33.534  INFO 6708 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8181 (http) with context path ''
+2018-03-18 22:56:33.538  INFO 6708 --- [main] com.demo.Main                            : Started Main in 13.119 seconds (JVM running for 13.985)
+2018-03-18 22:56:44.048  INFO 6708 --- [http-nio-8181-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-03-18 22:56:44.420  INFO 6708 --- [http-nio-8181-exec-1] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2018-03-18 23:02:41.005  INFO 7384 --- [main] com.demo.Main                            : Starting Main on Akash-PC with PID 7384 (started by Akash in E:\Spring Boot\SpringBootDemo\SpringBootDemo)
+2018-03-18 23:02:41.011  INFO 7384 --- [main] com.demo.Main                            : No active profile set, falling back to default profiles: default
+2018-03-18 23:02:41.121  INFO 7384 --- [main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1d90b9e: startup date [Sun Mar 18 23:02:41 IST 2018]; root of context hierarchy
+2018-03-18 23:02:42.603  WARN 7384 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.demo.controller, com.demo]' package. Please check your configuration.
+2018-03-18 23:02:43.341  INFO 7384 --- [main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-03-18 23:02:43.619  INFO 7384 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4631185e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-03-18 23:02:44.470  INFO 7384 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8181 (http)
+2018-03-18 23:02:44.531  INFO 7384 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-03-18 23:02:44.531  INFO 7384 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.28
+2018-03-18 23:02:44.550  INFO 7384 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_144\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jdk1.8.0_144/bin/../jre/bin/client;C:/Program Files/Java/jdk1.8.0_144/bin/../jre/bin;C:/Program Files/Java/jdk1.8.0_144/bin/../jre/lib/i386;C:\oraclexe\app\oracle\product\11.2.0\server\bin;;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_144\bin;C:\Program Files\Apache\maven\bin;C:\Program Files\Skype\Phone\;E:\Java\Eclipse\eclipse;;.]
+2018-03-18 23:02:44.823  INFO 7384 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-03-18 23:02:45.165  INFO 7384 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-03-18 23:02:45.171  INFO 7384 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-03-18 23:02:45.172  INFO 7384 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-03-18 23:02:45.172  INFO 7384 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-03-18 23:02:45.172  INFO 7384 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-03-18 23:02:45.525  INFO 7384 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2018-03-18 23:02:46.388  INFO 7384 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2018-03-18 23:02:46.497  INFO 7384 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-03-18 23:02:46.553  INFO 7384 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-03-18 23:02:46.810  INFO 7384 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.2.14.Final}
+2018-03-18 23:02:46.814  INFO 7384 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2018-03-18 23:02:46.963  INFO 7384 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-03-18 23:02:47.239  INFO 7384 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2018-03-18 23:02:49.313  INFO 7384 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-03-18 23:02:51.114  WARN 7384 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-03-18 23:02:52.079  INFO 7384 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-03-18 23:02:52.081  INFO 7384 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-03-18 23:02:52.093  INFO 7384 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-03-18 23:02:52.155  INFO 7384 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8181 (http) with context path ''
+2018-03-18 23:02:52.159  INFO 7384 --- [main] com.demo.Main                            : Started Main in 12.232 seconds (JVM running for 13.091)
+2018-03-18 23:08:59.773  INFO 7384 --- [http-nio-8181-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-03-18 23:09:37.891  INFO 7384 --- [http-nio-8181-exec-4] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2018-03-18 23:10:52.835  INFO 8172 --- [main] com.demo.Main                            : Starting Main on Akash-PC with PID 8172 (started by Akash in E:\Spring Boot\SpringBootDemo\SpringBootDemo)
+2018-03-18 23:10:52.844  INFO 8172 --- [main] com.demo.Main                            : No active profile set, falling back to default profiles: default
+2018-03-18 23:10:52.957  INFO 8172 --- [main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@d0a57: startup date [Sun Mar 18 23:10:52 IST 2018]; root of context hierarchy
+2018-03-18 23:10:54.390  WARN 8172 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.demo.controller, com.demo]' package. Please check your configuration.
+2018-03-18 23:10:55.128  INFO 8172 --- [main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-03-18 23:10:55.425  INFO 8172 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$fec4d7a4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-03-18 23:10:56.292  INFO 8172 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8181 (http)
+2018-03-18 23:10:56.345  INFO 8172 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-03-18 23:10:56.346  INFO 8172 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.28
+2018-03-18 23:10:56.369  INFO 8172 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_144\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jdk1.8.0_144/bin/../jre/bin/client;C:/Program Files/Java/jdk1.8.0_144/bin/../jre/bin;C:/Program Files/Java/jdk1.8.0_144/bin/../jre/lib/i386;C:\oraclexe\app\oracle\product\11.2.0\server\bin;;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_144\bin;C:\Program Files\Apache\maven\bin;C:\Program Files\Skype\Phone\;E:\Java\Eclipse\eclipse;;.]
+2018-03-18 23:10:56.623  INFO 8172 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-03-18 23:10:56.986  INFO 8172 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-03-18 23:10:56.992  INFO 8172 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-03-18 23:10:56.993  INFO 8172 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-03-18 23:10:56.993  INFO 8172 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-03-18 23:10:56.993  INFO 8172 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-03-18 23:10:57.370  INFO 8172 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2018-03-18 23:10:58.183  INFO 8172 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2018-03-18 23:10:58.286  INFO 8172 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-03-18 23:10:58.355  INFO 8172 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-03-18 23:10:58.630  INFO 8172 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.2.14.Final}
+2018-03-18 23:10:58.634  INFO 8172 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2018-03-18 23:10:58.773  INFO 8172 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-03-18 23:10:59.049  INFO 8172 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2018-03-18 23:11:01.339  INFO 8172 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-03-18 23:11:03.258  WARN 8172 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-03-18 23:11:04.244  INFO 8172 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-03-18 23:11:04.246  INFO 8172 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-03-18 23:11:04.259  INFO 8172 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-03-18 23:11:04.317  INFO 8172 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8181 (http) with context path ''
+2018-03-18 23:11:04.321  INFO 8172 --- [main] com.demo.Main                            : Started Main in 12.422 seconds (JVM running for 13.258)
+2018-03-18 23:11:11.092  INFO 8172 --- [http-nio-8181-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-03-18 23:11:11.470  INFO 8172 --- [http-nio-8181-exec-1] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
